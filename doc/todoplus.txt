@@ -1,0 +1,12 @@
+*todoplus.txt* Syntax highlighting for TODO lists
+
+        todoplus syntax highlighting by Andrea Schiavini ~
+
+Install                                                    |todoplus-install|
+
+TBD.
+
+It automatically works with .todoplus files. If you want to try it on another
+file, choose this syntax with
+
+:set filetype=todoplus
