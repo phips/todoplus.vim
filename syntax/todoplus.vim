@@ -22,13 +22,15 @@ syn region inProgressTodo start=/^\s*\[\.\+\].*$/ end=/$/  contains=celComment,c
 syn region completedTodo  start=/^\s*\(\[[xX]\+\]\|✔\).*$/ end=/$/ contains=celComment,celTodo,todoPlusTag
 syn region canceledTodo  start=/^\s*\(\[[-]\]\|✘\).*$/ end=/$/ contains=celComment,celTodo,todoPlusTag
 syn region todoPlusHeader start=/^.*:$/ end=/$/ contains=celTodo,todoPlusTag
+syn match commentLine /^\s*--.*$/
 
 hi! link newTodo                    String
 hi! link titleTodo                  Statement
-hi! link completedTodo              Comment
-hi! link canceledTodo               Identifier
-hi! link inProgressTodo             Special
-hi! link todoPlusHeader             markdownH1
+hi! link completedTodo              Question
+hi! link canceledTodo               Error
+hi! link inProgressTodo             Identifier
+hi! link commentLine                Comment
+hi! link todoPlusHeader             Title
 hi! link todoPlusTag                Statement
 hi! link celTodo Todo
 hi! link celComment Comment
