@@ -18,9 +18,9 @@ syn match celComment "[^\\]///.*$" contains=celTodo
 syn match todoPlusTag /@\((.\{-,100\})\|\w\+\)/
 syn match titleTodo /^\s*=+.*$/
 syn region newTodo start=/^\s*\(\[\s\+\]\|❑\).*$/ end=/$/ contains=celComment,celTodo,todoPlusTag
-syn region inProgressTodo start=/^\s*\(\[\.\+\]|\).*$/ end=/$/  contains=celComment,celTodo,todoPlusTag
+syn region inProgressTodo start=/^\s*\(\[\.\+\]\|\).*$/ end=/$/  contains=celComment,celTodo,todoPlusTag
+syn region canceledTodo   start=/^\s*\(\[[-]\]\|✘\).*$/ end=/$/ contains=celComment,celTodo,todoPlusTag
 syn region completedTodo  start=/^\s*\(\[[xX]\+\]\|✔\).*$/ end=/$/ contains=celComment,celTodo,todoPlusTag
-syn region canceledTodo  start=/^\s*\(\[[-]\]\|✘\).*$/ end=/$/ contains=celComment,celTodo,todoPlusTag
 syn region todoPlusHeader start=/^.*:$/ end=/$/ contains=celTodo,todoPlusTag
 syn match commentLine /^\s*--.*$/
 
