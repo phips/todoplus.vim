@@ -31,11 +31,6 @@ function! TodoPlusAddPomo()
   execute "normal" "kJ"
 endfunction
 
-xnoremap <Leader>tpd :call TodoPlusTodo()<CR>
-xnoremap <Leader>tpt :call TodoPlusDone()<CR>
-xnoremap <Leader>tpc :call TodoPlusCanceled()<CR>
-xnoremap <Leader>tpi :call TodoPlusInProgress()<CR>
-
 command! TodoPlusDone call TodoPlusDone()
 command! TodoPlusTodo call TodoPlusTodo()
 command! TodoPlusCanceled call TodoPlusCanceled()
