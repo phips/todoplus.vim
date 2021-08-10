@@ -1,8 +1,8 @@
 " Vim syntax file
 " Language: todoplus
 " Maintainer: Andrea Schiavini <metalelf0@gmail.com>
-" Version:  1.1
-" Last Change:  2020 Nov 8
+" Version:  1.2
+" Last Change:  2021 Aug 10
 
 " Quit when a syntax file is already loaded.
 if exists("b:current_syntax")
