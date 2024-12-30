@@ -2,6 +2,8 @@
 
 ## Screenshots
 
+![screenshot](example/todoplus.jpg)
+
 ## Usage
 
 Define following mappings if you want to:

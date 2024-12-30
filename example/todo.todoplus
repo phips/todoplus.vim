@@ -1,0 +1,15 @@
+Todo:
+❑ Something needs doing
+  -- TODO:  2024-12-30 16:25
+
+ Something is in progress
+  -- IN PROGRESS: 2024-12-30 16:26
+  -- TODO:  2024-12-30 16:26
+
+✘ Something was cancelled
+  -- CANCELED: 2024-12-30 16:26
+  -- TODO:  2024-12-30 16:26
+
+✔ Something is done!
+  -- DONE:     2024-12-30 16:26
+  -- TODO:  2024-12-30 16:26
