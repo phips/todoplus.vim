@@ -8,9 +8,9 @@ Define following mappings if you want to:
 
 ```vim
 nnoremap <Leader>tt :call TodoPlusTodo()<CR>
-nnoremap <Leader>td :call TodoPlusDone()<CR>
-nnoremap <Leader>tc :call TodoPlusCanceled()<CR>
 nnoremap <Leader>ti :call TodoPlusInProgress()<CR>
+nnoremap <Leader>tc :call TodoPlusCanceled()<CR>
+nnoremap <Leader>td :call TodoPlusDone()<CR>
 nnoremap <Leader>tp :call TodoPlusAddPomo()<CR>
 ```
 
@@ -23,4 +23,6 @@ file, choose this syntax with
 
 ### Installing
 
-TBD.
+With [vim-plug](https://github.com/junegunn/vim-plug)
+
+`Plug 'phips/todoplus.vim'`
